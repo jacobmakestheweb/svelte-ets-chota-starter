@@ -1,9 +1,28 @@
-# svelte app
+# Svelte x ETS x Chota x Feather Starter 
 
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
+This Starters recipe:
 
+  + Svelte
+  + Easy Toggle State
+  + Chota
+  + Svelte-Chota (ui component kit for svelte)
+  + Svelte Feather Icons 
 
-## Get started
+  writing and scripting style switching feel like natural HTML. Easy Toggle JS s a great, minimal library which gives elements toggle-able attributes, without having to write any JS orselves! Check out the starter on Glitch to see exactly how it works. I think it extends svelte very well as it makes our styles and markup feel more integrated while leaving alllll of  th data logic to svelte/js.
+  
+## Shout-out 
+
+  All of the credit goes to the maintainers of these awesome libraries! Make sure to star their projects. Its only because of them that this awesome DX is possible.
+  
+  Note: This is not a minimal or bullet proof starter per say, just an experiment in how DX can be improved on the front-end with readily available, fairly minimal tools. At the moment the ETS package seems to be incompatible with HMR livereload (like snowpack), and actual page refresh is required to reload the page and init ETS.
+  
+## Get Started
+
+git clone this repo and npm install just like the official starter. 
+
+npm run dev, and then be sure to RTFM's of each package to see exactly how it works !
+
+## On Glitch
 
 Remix this app on Glitch and you should be ready to go!
 
@@ -20,4 +39,4 @@ If you're building a single-page app (SPA) with multiple routes, sirv needs to b
 
 ```js
 "start": "sirv public --single"
-```
+`
